@@ -10,6 +10,14 @@ const movieSchema = new mongoose.Schema({
         type: String,
         default: "Not specified",
     },
+    genre: {
+        type: String,
+        default : "Not specified",
+    },
+    year: {
+        type: String,
+        default: "Not specified",
+    }
 });
 
 const Movie = mongoose.model("Movie", movieSchema);
