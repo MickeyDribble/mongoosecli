@@ -5,7 +5,7 @@
  # Add a title to the database
  
  ```bash
- npm src/app.js --add --title "title" --actor "optional" --genre "optional --year "optional"
+ npm src/app.js --add --title "title" --actor "optional" --genre "optional" --year "optional"
  ```
  # Delete a title from database
  
